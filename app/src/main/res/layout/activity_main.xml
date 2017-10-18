@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.chetanya.animations.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:weightSum="1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explode"
+            android:layout_alignParentTop="true"
+            android:minWidth="160dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/bExplode"
+            android:onClick="onClick"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide"
+            android:minWidth="160dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/bSlide"
+            android:onClick="onClick"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explode"
+            android:layout_alignParentTop="true"
+            android:minWidth="160dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/bExplode2"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide"
+            android:minWidth="160dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/bSlide2"
+            android:onClick="onClick"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
